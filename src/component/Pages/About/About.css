@@ -1,0 +1,28 @@
+.about-hero img{
+width: 80%;
+}
+.section-container{
+    padding: 80px 0px;
+}
+.about-text{
+    text-align: left;
+    padding-top: 20px;
+}
+.about-text h2{
+    color: #E54B4B;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+}
+.about-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #161C2D;
+    line-height: 30px;
+}
+.about-text p{
+    font-size: 14px;
+    color: #8F9CAE;
+    line-height: 30px;
+    font-weight: 600;
+}

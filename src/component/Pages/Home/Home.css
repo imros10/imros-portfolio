@@ -1,0 +1,51 @@
+.header-container{
+    background-image: url(../../../image/bg.jpg);
+    background:linear-gradient(0deg, rgba(60,72,88,0.7), rgba(60,72,88,0.7)), url(../../../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container img{
+    width: 20%;
+}
+.header-main{
+    padding: 140px 0px;
+}
+.header-main h1{
+    color: #E54B4B;
+    font-weight: 700;
+    text-align: center;
+    font-size: 46px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-type{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+}
+.Typewriter{
+    color: #E54B4B;
+}
+.my-button{
+    background-color: #E54B4B;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+@media only screen and (max-width: 425px) {
+    .header-main {
+        height: 100vh;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .header-container img{
+        width: 50%;
+    }
+  }
